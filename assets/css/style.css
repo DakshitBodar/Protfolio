@@ -1,0 +1,234 @@
+body {
+    font-family: 'Inter';
+    background-color: #0a101e;
+    color: #fff;
+}
+.font-f {
+    font-family: 'Roboto';
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.banner {
+    background-image: url('../img/hero-bg-2.jpg');
+}
+.banner .icon i {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #ffffffe6;
+    transition: .5s;
+}
+.banner .icon i:hover {
+    border-color: #fff9;
+    color: #ffffffe6;
+}
+.about ul li span {
+    display: inline-block;
+    width: 108px;
+}
+.about h2.heading::after {
+    position: absolute;
+    content: 'About Me';
+    color: #151b2980;
+    font-size: 90px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    line-height: .6;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: -1;
+}
+.about button {
+    padding: 12px 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border: 0;
+    transition: .5s;
+}
+.about button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #fec64450;
+}
+.Service h2.heading::after {
+    position: absolute;
+    content: 'Service';
+    color: #151b2980;
+    font-size: 90px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    line-height: .6;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: -1;
+}
+.Service .service-box{
+    padding: 50px 30px;
+    border-radius: 3px;
+    transition: all .4s ease;
+    border: 1px solid #232935;
+    background-color: #101624;
+}
+.Service .service-box .service-img{
+    width: 90px;
+    height: 90px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    margin: auto auto 30px;
+    filter: grayscale(1);
+    transition: inherit;
+}
+.Service .service-box .service-img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.education h2.heading::after {
+    position: absolute;
+    content: 'education';
+    color: #151b2980;
+    font-size: 90px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    line-height: .6;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: -1;
+}
+
+.skill h2.heading::after {
+    position: absolute;
+    content: 'skill';
+    color: #151b2980;
+    font-size: 90px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    line-height: .6;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: -1;
+}
+.skill .percent h2{
+    border-bottom: 2px solid #fec544;
+    line-height: 40px;
+}
+.skill .percent h2 span{
+    margin-top: -40px;
+}
+.contact h2.heading::after {
+    position: absolute;
+    content: 'contact';
+    color: #151b2980;
+    font-size: 90px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    line-height: .6;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: -1;
+}
+.contact button {
+    padding: 12px 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border: 0;
+    transition: .5s;
+}
+.contact button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #fec64450;
+}
+.contact .contacts .table input{
+    display: block;
+    width: 100%;
+    color: #a9adb8;
+    padding: 12px 20px;
+    border: 1px solid #232935;
+    background-color: #101624;
+    height: 52px;
+    border-radius: 7px;
+    transition: all .4s ease;
+}
+.contact .contacts .table textarea{
+    display: block;
+    width: 100%;
+    color: #a9adb8;
+    padding: 12px 20px;
+    border: 1px solid #232935;
+    background-color: #101624;
+    border-radius: 7px;
+    transition: all .4s ease;
+}
+
+.contact .info .for i {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #ffffffe6;
+    transition: .5s;
+}
+.contact .info .for i:hover {
+    border-color: #fec544;
+}
+.contact .info p{
+    color: #a9adb8;
+}
+.contact .info .for{
+    color: #a9adb8;
+}
+
+.contact .info .ico i{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #ffffffe6;
+    transition: .5s;
+}
+.contact .info .ico i:hover {
+    border-color: #fff9;
+    color: #ffffffe6;
+}
+.portfolio h2.heading::after {
+    position: absolute;
+    content: 'portfolio';
+    color: #151b2980;
+    font-size: 90px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    line-height: .6;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: -1;
+}
